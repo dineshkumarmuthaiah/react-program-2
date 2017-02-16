@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>React</title>
+  </head>
+  <body>
+    <div id="data"></div>
+    <script type="text/jsx">
+       var Comp = React.createClass({
+           render: function(){
+               return(
+                   <div>
+                        <h1>melio systems pvt limited</h1>,
+                        <p>ashok nagar</p>
+                        <p>chennai</p>
+                     </div>
+                    );
+           }
+       });
+       React.render(<Comp />,document.getElementById('data'));
+    
+    </script>
+  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0-alpha1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0-alpha1/JSXTransformer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+</html>
